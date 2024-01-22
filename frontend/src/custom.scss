@@ -1,0 +1,26 @@
+//@import '~bootstrap/scss/bootstrap';
+
+// Override default variables before the import
+// you can open the bootstrap.scss module and check any available variables.
+
+// create vars with "$" sign and assing required value. Add them to the map below, $theme-colors.
+$primary: #362ec4;
+$secondNavdark: #313138;
+//custom color to be mapped
+$accent : #da6d25;
+
+$lightDark: #b5bbc7;
+
+
+// this is used to map colors. change accordingly.
+$theme-colors: (
+  primary: $primary,
+  ligthDark: $lightDark,
+  secondNavdark: $secondNavdark,
+  accent: $accent,
+);
+
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+ 
+.search-bar {
+    width: 650px;
+    height: 69px;
+    background-color: #3BB77E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 250; 
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    color: #253D4E;
+}
+
+.search-bar .icon  {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+
+}
+
+.search-bar input{
+    width: 650px;
+    height: 69px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #253D4E;
+
+}
+
+.search-bar input:focus {
+    outline: none!important;
+}
+
+.header {
+    color: #253D4E;
+}
+
+.header-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    color: #253D4E;
+    font-size: 21px;
+    text-align: center;
+    width: 600px;
+    margin-left: 70px;
+}
+
+.list {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    width: max-content;
+    margin-left: 60px;
+    color: #253D4E;
+}
+
+.list .icon {
+    width: 28px;
+    height: 28px;
+    margin-top: 6px;
+}
+
+.account {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+
+}
+
+.account .icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.cart   {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    width: 200px;
+}
+
+.cart .icon {
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+}
+
